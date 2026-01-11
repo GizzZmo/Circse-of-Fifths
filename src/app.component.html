@@ -1,0 +1,33 @@
+<div class="min-h-screen flex flex-col items-center bg-neutral-950 text-neutral-200 font-sans selection:bg-blue-500/30">
+  
+  <!-- Header -->
+  <header class="w-full p-6 text-center bg-neutral-900 border-b border-neutral-800">
+    <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent mb-2">
+      Circle of Fifths
+    </h1>
+    <p class="text-neutral-500 max-w-md mx-auto text-sm">
+      Explore musical keys, discover diatonic chords, and understand harmonic relationships.
+    </p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 w-full max-w-6xl p-4 md:p-8 flex flex-col xl:flex-row items-center justify-center gap-12">
+    
+    <!-- Left: Visualization -->
+    <div class="flex-shrink-0">
+      <app-circle-visual />
+    </div>
+
+    <!-- Right: Info Panel -->
+    <div class="flex-grow w-full max-w-2xl">
+      <app-chord-panel />
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full p-6 text-center text-neutral-700 text-xs border-t border-neutral-900">
+    <p>&copy; 2024 Music Theory Tools. Built with Angular & Tailwind.</p>
+  </footer>
+
+</div>

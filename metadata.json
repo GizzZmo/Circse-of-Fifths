@@ -1,0 +1,5 @@
+{
+  "name": "Circle of Fifths",
+  "description": "Interactive music theory tool to explore musical keys, chord progressions, and harmonic relationships using the Circle of Fifths.",
+  "requestFramePermissions": []
+}
